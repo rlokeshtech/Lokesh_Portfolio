@@ -5,7 +5,7 @@ import Projects from './Projects'
 import Contact from './Contact'
 import NavBar from './NavBar'
 import Skills from './Skills'
-import Experience from './Experience'
+import Experience from '../src/Experience'
 import Education from './Education'
 
 function App() {
