@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
@@ -8,24 +7,21 @@ import NavBar from './NavBar'
 import Skills from './Skills'
 import Experience from './Experience'
 import Education from './Education'
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {
   return (
-    <>
-      <div className="bg-cyan-50">
-        <NavBar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/Project' element={<Projects />} />
-          <Route path='/Contact' element={<Contact />} />
-          <Route path='/Skills' element={<Skills/>} />
-          <Route path='/Experience' element={<Experience/>} />
-          <Route path='/Education' element={<Education/>} />
-        </Routes>
-      </div>
-    </>
+    <div className="bg-cyan-50">
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/education" element={<Education />} />
+      </Routes>
+    </div>
   )
 }
 
