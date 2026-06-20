@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './Navbar';
 import emailjs from '@emailjs/browser';
 import Footer from './Footer';
 
