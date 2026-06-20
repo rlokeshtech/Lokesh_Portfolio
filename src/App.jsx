@@ -3,10 +3,10 @@ import Home from './Home'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
-import NavBar from './NavBar'
 import Skills from './Skills'
 import Education from './Education'
 import Experience from './Experience'
+import NavBar from './Navbar'
 
 function App() {
   return (
