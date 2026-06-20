@@ -5,8 +5,8 @@ import Projects from './Projects'
 import Contact from './Contact'
 import NavBar from './NavBar'
 import Skills from './Skills'
-import Experience from '../src/Experience'
 import Education from './Education'
+import Experience from './Experience'
 
 function App() {
   return (
