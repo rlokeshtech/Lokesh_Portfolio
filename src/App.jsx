@@ -6,7 +6,7 @@ import Contact from './Contact'
 import Skills from './Skills'
 import Education from './Education'
 import Experience from './Experience'
-import NavBar from './Navbar'
+import {NavBar} from './Navbar'
 
 function App() {
   return (
